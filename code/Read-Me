@@ -1,0 +1,14 @@
+The link to download the full datasets that we used is below:
+  - Trips Data: https://drive.google.com/file/d/1BpmdBsZB2i6Qi9eV_ssBfUB3kV1eK4Nu/view?usp=sharing
+  - Remote Work Data: https://docs.google.com/spreadsheets/d/1Qhz-6X1OX7USYtbMzWCzG-2smkmITmUa/edit?usp=sharing&ouid=115172048637575273970&rtpof=true&sd=true
+
+We run merge_wfh_trips_data.py to merge the two datasets above and output two merged dataframes. One of the dataframes is looking at the state level and the other data frame is on the national level.
+These two merged datasets are tracked on a monthly basis:
+  - National Level Merged Data: https://docs.google.com/spreadsheets/d/17WEtyrVy6KvMMNdagU0K3pGOGsdi5hM-/edit?usp=sharing&ouid=115172048637575273970&rtpof=true&sd=true
+  - State Level Merged Datahttps://docs.google.com/spreadsheets/d/1WxmcHE_aRLspZ_75O4P18c8HR31u3_36/edit?usp=sharing&ouid=115172048637575273970&rtpof=true&sd=true
+
+plot_heatmaps_and_trends.py gets the merged datasets directly from the merge_wfh_trips_data.py module and outputs many different plots that are used in our final report including the choropleths, bar charts
+scatter plots, and box plots.
+
+Plot_State.py gets the merged datasets from the merged data in the excel files linked above and outputs important time trend plots by state using a function to quickly create plots based on the state
+of interest.
